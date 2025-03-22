@@ -46,14 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="fQuanLyHocVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fQuanLyHocVien.Designer.cs">
+      <DependentUpon>fQuanLyHocVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student.cs" />
+    <Compile Include="UCAddStudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCAddStudent.Designer.cs">
+      <DependentUpon>UCAddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCDeleteStudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDeleteStudent.Designer.cs">
+      <DependentUpon>UCDeleteStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCFindStudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCFindStudent.Designer.cs">
+      <DependentUpon>UCFindStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCIsHocBong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCIsHocBong.Designer.cs">
+      <DependentUpon>UCIsHocBong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCShowListStudents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCShowListStudents.Designer.cs">
+      <DependentUpon>UCShowListStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCUpdateStudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUpdateStudent.Designer.cs">
+      <DependentUpon>UCUpdateStudent.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +109,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="fQuanLyHocVien.resx">
+      <DependentUpon>fQuanLyHocVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCAddStudent.resx">
+      <DependentUpon>UCAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCDeleteStudent.resx">
+      <DependentUpon>UCDeleteStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCFindStudent.resx">
+      <DependentUpon>UCFindStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCIsHocBong.resx">
+      <DependentUpon>UCIsHocBong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCShowListStudents.resx">
+      <DependentUpon>UCShowListStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCUpdateStudent.resx">
+      <DependentUpon>UCUpdateStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

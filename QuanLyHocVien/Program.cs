@@ -16,7 +16,11 @@ namespace QuanLyHocVien
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            fLogin loginForm = new fLogin();
+            if (loginForm.ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new fQuanLyHocVien());
+            }
         }
     }
 }
