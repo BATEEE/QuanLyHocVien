@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ACER\\Downloads\\WebDriver_14_Khang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4660453-3B50-4621-A923-0328C3DE9B64}|WebDriver_14_Khang\\WebDriver_14_Khang.csproj|d:\\acer\\downloads\\webdriver_14_khang\\webdriver_14_khang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4660453-3B50-4621-A923-0328C3DE9B64}|WebDriver_14_Khang\\WebDriver_14_Khang.csproj|solutionrelative:webdriver_14_khang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4660453-3B50-4621-A923-0328C3DE9B64}|WebDriver_14_Khang\\WebDriver_14_Khang.csproj|D:\\ACER\\Downloads\\WebDriver_14_Khang\\webdriver_14_khang\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4660453-3B50-4621-A923-0328C3DE9B64}|WebDriver_14_Khang\\WebDriver_14_Khang.csproj|solutionrelative:webdriver_14_khang\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4660453-3B50-4621-A923-0328C3DE9B64}|WebDriver_14_Khang\\WebDriver_14_Khang.csproj|D:\\ACER\\Downloads\\WebDriver_14_Khang\\webdriver_14_khang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4660453-3B50-4621-A923-0328C3DE9B64}|WebDriver_14_Khang\\WebDriver_14_Khang.csproj|solutionrelative:webdriver_14_khang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\ACER\\Downloads\\WebDriver_14_Khang\\WebDriver_14_Khang\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WebDriver_14_Khang\\Form1.Designer.cs",
+              "ToolTip": "D:\\ACER\\Downloads\\WebDriver_14_Khang\\WebDriver_14_Khang\\Form1.Designer.cs",
+              "RelativeToolTip": "WebDriver_14_Khang\\Form1.Designer.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAApwDkAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T11:50:49.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\ACER\\Downloads\\WebDriver_14_Khang\\WebDriver_14_Khang\\Form1.cs",
+              "RelativeDocumentMoniker": "WebDriver_14_Khang\\Form1.cs",
+              "ToolTip": "D:\\ACER\\Downloads\\WebDriver_14_Khang\\WebDriver_14_Khang\\Form1.cs",
+              "RelativeToolTip": "WebDriver_14_Khang\\Form1.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAtwCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:37:56.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\ACER\\Downloads\\WebDriver_14_Khang\\WebDriver_14_Khang\\Form1.cs",
+              "RelativeDocumentMoniker": "WebDriver_14_Khang\\Form1.cs",
+              "ToolTip": "D:\\ACER\\Downloads\\WebDriver_14_Khang\\WebDriver_14_Khang\\Form1.cs [Design]",
+              "RelativeToolTip": "WebDriver_14_Khang\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:36:31.641Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

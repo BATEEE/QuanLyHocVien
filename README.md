@@ -1,2 +1,0 @@
-# QuanLyHocVien
-.NET framework
