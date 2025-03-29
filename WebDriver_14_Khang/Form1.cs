@@ -25,44 +25,52 @@ namespace WebDriver_14_Khang
 
         private void buttonOpenBrowser_14_Khang_Click(object sender, EventArgs e)
         {
-            //tắt màn hình đen khi chạy
-            ChromeDriverService Chrome_14_Khang = ChromeDriverService.CreateDefaultService();
-            Chrome_14_Khang.HideCommandPromptWindow = true;
+            try
+            {
+                //tắt màn hình đen khi chạy
+                ChromeDriverService Chrome_14_Khang = ChromeDriverService.CreateDefaultService();
+                Chrome_14_Khang.HideCommandPromptWindow = true;
 
-            //Điều hướng trình duyệt
-            driver_14_Khang = new ChromeDriver(Chrome_14_Khang);
-            driver_14_Khang.Navigate().GoToUrl("https://giasudatviet.com");
+                //Điều hướng trình duyệt
+                driver_14_Khang = new ChromeDriver(Chrome_14_Khang);
+                driver_14_Khang.Navigate().GoToUrl("https://giasudatviet.com");
 
-            IWebElement login_phone_14_Khang = driver_14_Khang.FindElement(By.Name("login__phone"));
-            login_phone_14_Khang.SendKeys("12345678");
+                IWebElement login_phone_14_Khang = driver_14_Khang.FindElement(By.Name("login__phone"));
+                login_phone_14_Khang.SendKeys("12345678");
 
-            IWebElement login_14_Khang = driver_14_Khang.FindElement(By.ClassName("btn_s3"));
-            login_14_Khang.Click();
+                IWebElement login_14_Khang = driver_14_Khang.FindElement(By.ClassName("btn_s3"));
+                login_14_Khang.Click();
 
-            Thread.Sleep(2000);//trì hoãn 2s
+                Thread.Sleep(2000);//trì hoãn 2s
 
-            IWebElement close_14_Khang = driver_14_Khang.FindElement(By.CssSelector("button.confirm.btn.btn-lg.btn-primary"));
-            close_14_Khang.Click();
+                IWebElement close_14_Khang = driver_14_Khang.FindElement(By.CssSelector("button.confirm.btn.btn-lg.btn-primary"));
+                close_14_Khang.Click();
 
-            driver_14_Khang.Navigate().GoToUrl("https://giasudatviet.com/dang-ky-tim-gia-su.html");
+                driver_14_Khang.Navigate().GoToUrl("https://giasudatviet.com/dang-ky-tim-gia-su.html");
 
-            Thong_Tin_Dang_Ky_14_Khang();
+                Thong_Tin_Dang_Ky_14_Khang();
 
-            driver_14_Khang.Navigate().GoToUrl("https://giasudatviet.com/gia-su-tieu-bieu.html");
+                driver_14_Khang.Navigate().GoToUrl("https://giasudatviet.com/gia-su-tieu-bieu.html");
 
-            Tim_Kiem_Gia_Su_14_Khang();
+                Tim_Kiem_Gia_Su_14_Khang();
 
-            Thong_Tin_Dang_Ky_14_Khang();
+                Thong_Tin_Dang_Ky_14_Khang();
 
-            driver_14_Khang.Navigate().GoToUrl("https://giasudatviet.com/dang-ky-lam-gia-su.html");
+                driver_14_Khang.Navigate().GoToUrl("https://giasudatviet.com/dang-ky-lam-gia-su.html");
 
-            Dang_Ky_Lam_Gia_Su_14_Khang();
+                Dang_Ky_Lam_Gia_Su_14_Khang();
 
-            driver_14_Khang.Navigate().GoToUrl("https://giasudatviet.com/lop-day-can-gia-su.html");
+                driver_14_Khang.Navigate().GoToUrl("https://giasudatviet.com/lop-day-can-gia-su.html");
 
-            Lop_Moi_Can_Gia_Su();
+                Lop_Moi_Can_Gia_Su();
 
-            driver_14_Khang.Quit();
+                driver_14_Khang.Quit();
+            }
+            catch (OpenQA.Selenium.WebDriverException ex)
+            {
+                //Tránh trường hợp hiện lỗi code khi mik tắt web mà ko click vô 1 link nào đó được liệt ra trong if
+                Console.WriteLine("An error occurred while accessing the URL: " + ex.Message);
+            }
         }
 
         private void Thong_Tin_Dang_Ky_14_Khang()
@@ -85,6 +93,8 @@ namespace WebDriver_14_Khang
         private void Tim_Kiem_Gia_Su_14_Khang() {
             IWebElement tinh_thanh_14_Khang = driver_14_Khang.FindElement(By.Name("tinhthanh"));
             tinh_thanh_14_Khang.SendKeys("Hồ Chí Minh");
+
+            Thread.Sleep(1000);//trì hoãn 1s
 
             IWebElement quan_huyen_14_Khang = driver_14_Khang.FindElement(By.Name("quanhuyen"));
             quan_huyen_14_Khang.SendKeys("Quận 7");
@@ -144,7 +154,7 @@ namespace WebDriver_14_Khang
             address_14_Khang.SendKeys("1 địa chỉ nào đó");
 
             IWebElement cmnd_14_Khang = driver_14_Khang.FindElement(By.Name("cmnd"));
-            address_14_Khang.SendKeys("0987654321");
+            cmnd_14_Khang.SendKeys("0987654321");
 
             IWebElement email_14_Khang = driver_14_Khang.FindElement(By.Name("email"));
             email_14_Khang.SendKeys("1 địa chỉ nào đó");
@@ -212,10 +222,12 @@ namespace WebDriver_14_Khang
             ma_lop_14_Khang.SendKeys("1");
 
             IWebElement hinh_thuc_14_Khang = driver_14_Khang.FindElement(By.Name("hinhthuc"));
-            hinh_thuc_14_Khang.SendKeys("Hồ Chí Minh");
+            hinh_thuc_14_Khang.SendKeys("Dạy offline (trực tiếp)");
 
             IWebElement tinh_thanh_14_Khang = driver_14_Khang.FindElement(By.Name("tinhthanh"));
             tinh_thanh_14_Khang.SendKeys("Hồ Chí Minh");
+
+            Thread.Sleep(1000);//trì hoãn 1s
 
             IWebElement quan_huyen_14_Khang = driver_14_Khang.FindElement(By.Name("quanhuyen"));
             quan_huyen_14_Khang.SendKeys("Quận 7");
